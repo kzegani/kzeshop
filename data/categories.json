@@ -1,0 +1,52 @@
+[
+	{
+		"title": "Clothing & Apparel",
+		"href": "/clothing-and-apparel",
+		"description": "Shop the latest trends in fashion, clothing, and accessories for every style."
+	},
+	{
+		"title": "Electronics",
+		"href": "/electronics",
+		"description": "Find cutting-edge electronics and gadgets for all your needs."
+	},
+	{
+		"title": "Home & Living",
+		"href": "/home-and-living",
+		"description": "Explore a wide range of home décor, furniture, and living essentials."
+	},
+	{
+		"title": "Health & Beauty",
+		"href": "/health-and-beauty",
+		"description": "Discover health, beauty, and wellness products to look and feel your best."
+	},
+	{
+		"title": "Sports & Outdoors",
+		"href": "/sports-and-outdoors",
+		"description": "Gear up for your favorite sports and outdoor activities with top products."
+	},
+	{
+		"title": "Toys & Games",
+		"href": "/toys-and-games",
+		"description": "Find the perfect toys and games for kids of all ages."
+	},
+	{
+		"title": "Automotive",
+		"href": "/automotive",
+		"description": "Browse automotive parts, accessories, and tools to keep your car running smoothly."
+	},
+	{
+		"title": "Food & Beverages",
+		"href": "/food-and-beverages",
+		"description": "Stock up on delicious foods, snacks, and beverages for every occasion."
+	},
+	{
+		"title": "Books & Stationery",
+		"href": "/books-and-stationery",
+		"description": "Explore a vast selection of books, office supplies, and stationery items."
+	},
+	{
+		"title": "Pet Supplies",
+		"href": "/pet-supplies",
+		"description": "Get everything your pets need, from food to toys and grooming supplies."
+	}
+]

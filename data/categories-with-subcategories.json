@@ -1,0 +1,267 @@
+[
+	{
+		"category": "Clothing & Apparel",
+		"subcategories": [	
+			{
+				"title": "Men’s, Women’s, and Children’s Clothing",
+				"href": "/clothing-and-apparel/mens-womens-childrens-clothing",
+				"description": "Explore a wide selection of men’s, women’s, and children’s clothing, perfect for any occasion."
+			},
+			{
+				"title": "Activewear",
+				"href": "/clothing-and-apparel/activewear",
+				"description": "Shop our collection of activewear, designed for comfort and performance in your workouts."
+			},
+			{
+				"title": "Accessories",
+				"href": "/clothing-and-apparel/accessories",
+				"description": "Shop hats, scarves, belts, and more to complete your look for every season."
+			},
+			{
+				"title": "Shoes",
+				"href": "/clothing-and-apparel/shoes",
+				"description": "Discover our range of stylish and comfortable shoes for men, women, and children."
+			}
+		]
+	},
+	{
+		"category": "Electronics",
+		"subcategories": [
+			{
+				"title": "Smartphones and Accessories",
+				"href": "/electronics/smartphones-accessories",
+				"description": "Find cutting-edge smartphones and accessories to stay connected and stylish."
+			},
+			{
+				"title": "Laptops and Computers",
+				"href": "/electronics/laptops-computers",
+				"description": "Explore the latest laptops and computers, perfect for work and play."
+			},
+			{
+				"title": "Home Appliances",
+				"href": "/electronics/home-appliances",
+				"description": "Shop essential home appliances for a more convenient and comfortable living."
+			},
+			{
+				"title": "Audio and Headphones",
+				"href": "/electronics/audio-headphones",
+				"description": "Experience high-quality sound with our range of audio devices and headphones."
+			},
+			{
+				"title": "Cameras",
+				"href": "/electronics/cameras",
+				"description": "Capture life’s moments with our selection of cameras and photography accessories."
+			}
+		]
+	},
+	{
+		"category": "Home & Living",
+		"subcategories": [
+			{
+				"title": "Furniture",
+				"href": "/home-living/furniture",
+				"description": "Discover stylish and functional furniture for every room in your home."
+			},
+			{
+				"title": "Home Decor",
+				"href": "/home-living/home-decor",
+				"description": "Enhance your living space with beautiful home decor items."
+			},
+			{
+				"title": "Kitchenware",
+				"href": "/home-living/kitchenware",
+				"description": "Find essential kitchenware for cooking, baking, and entertaining."
+			},
+			{
+				"title": "Bedding and Linens",
+				"href": "/home-living/bedding-linens",
+				"description": "Explore our collection of bedding and linens for a comfortable sleep."
+			},
+			{
+				"title": "Gardening Supplies",
+				"href": "/home-living/gardening-supplies",
+				"description": "Get everything you need for gardening, from tools to plants."
+			}
+		]
+	},
+	{
+		"category": "Health & Beauty",
+		"subcategories": [
+			{
+				"title": "Skincare Products",
+				"href": "/health-beauty/skincare-products",
+				"description": "Discover nourishing skincare products for a radiant complexion."
+			},
+			{
+				"title": "Haircare Products",
+				"href": "/health-beauty/haircare-products",
+				"description": "Shop a range of haircare products to keep your hair healthy and stylish."
+			},
+			{
+				"title": "Makeup and Cosmetics",
+				"href": "/health-beauty/makeup-cosmetics",
+				"description": "Find the latest makeup and cosmetic products to enhance your beauty."
+			},
+			{
+				"title": "Personal Care Items",
+				"href": "/health-beauty/personal-care-items",
+				"description": "Browse personal care items for your daily grooming needs."
+			},
+			{
+				"title": "Health Supplements",
+				"href": "/health-beauty/health-supplements",
+				"description": "Explore our range of health supplements to support your wellness journey."
+			}
+		]
+	},
+	{
+		"category": "Sports & Outdoors",
+		"subcategories": [
+			{
+				"title": "Fitness Equipment",
+				"href": "/sports-outdoors/fitness-equipment",
+				"description": "Get fit with our selection of fitness equipment for home and gym use."
+			},
+			{
+				"title": "Outdoor Gear",
+				"href": "/sports-outdoors/outdoor-gear",
+				"description": "Find tents, backpacks, and other gear for your outdoor adventures."
+			},
+			{
+				"title": "Sports Apparel",
+				"href": "/sports-outdoors/sports-apparel",
+				"description": "Shop our range of sports apparel designed for performance and comfort."
+			},
+			{
+				"title": "Bicycles and Accessories",
+				"href": "/sports-outdoors/bicycles-accessories",
+				"description": "Explore bicycles and accessories for cycling enthusiasts."
+			}
+		]
+	},
+	{
+		"category": "Toys & Games",
+		"subcategories": [
+			{
+				"title": "Educational Toys",
+				"href": "/toys-games/educational-toys",
+				"description": "Discover educational toys that inspire creativity and learning."
+			},
+			{
+				"title": "Board Games and Puzzles",
+				"href": "/toys-games/board-games-puzzles",
+				"description": "Find fun board games and puzzles for family game nights."
+			},
+			{
+				"title": "Action Figures and Dolls",
+				"href": "/toys-games/action-figures-dolls",
+				"description": "Browse our collection of action figures and dolls for imaginative play."
+			},
+			{
+				"title": "Outdoor Play Equipment",
+				"href": "/toys-games/outdoor-play-equipment",
+				"description": "Shop outdoor play equipment for active kids."
+			}
+		]
+	},
+	{
+		"category": "Automotive",
+		"subcategories": [
+			{
+				"title": "Car Accessories",
+				"href": "/automotive/car-accessories",
+				"description": "Explore a wide range of car accessories to enhance your driving experience."
+			},
+			{
+				"title": "Tools and Equipment",
+				"href": "/automotive/tools-equipment",
+				"description": "Find essential tools and equipment for automotive maintenance and repair."
+			},
+			{
+				"title": "Motorcycle Gear",
+				"href": "/automotive/motorcycle-gear",
+				"description": "Shop high-quality gear for motorcycle enthusiasts."
+			},
+			{
+				"title": "Tires and Parts",
+				"href": "/automotive/tires-parts",
+				"description": "Discover a variety of tires and parts for all vehicle types."
+			}
+		]
+	},
+	{
+		"category": "Food & Beverages",
+		"subcategories": [
+			{
+				"title": "Gourmet Foods",
+				"href": "/food-beverages/gourmet-foods",
+				"description": "Indulge in our selection of gourmet foods for a delightful experience."
+			},
+			{
+				"title": "Organic Products",
+				"href": "/food-beverages/organic-products",
+				"description": "Explore our range of organic products for a healthier lifestyle."
+			},
+			{
+				"title": "Snacks",
+				"href": "/food-beverages/snacks",
+				"description": "Find a variety of delicious snacks for every craving."
+			},
+			{
+				"title": "Beverages",
+				"href": "/food-beverages/beverages",
+				"description": "Shop our selection of beverages, including coffee and tea."
+			}
+		]
+	},
+	{
+		"category": "Books & Stationery",
+		"subcategories": [
+			{
+				"title": "Fiction and Non-Fiction Books",
+				"href": "/books-stationery/fiction-non-fiction-books",
+				"description": "Discover a wide range of fiction and non-fiction books for all readers."
+			},
+			{
+				"title": "Educational Materials",
+				"href": "/books-stationery/educational-materials",
+				"description": "Find educational materials for students and teachers alike."
+			},
+			{
+				"title": "Office Supplies",
+				"href": "/books-stationery/office-supplies",
+				"description": "Shop essential office supplies for your home or workplace."
+			},
+			{
+				"title": "Art Supplies",
+				"href": "/books-stationery/art-supplies",
+				"description": "Explore a variety of art supplies for artists of all levels."
+			}
+		]
+	},
+	{
+		"category": "Pet Supplies",
+		"subcategories": [
+			{
+				"title": "Pet Food",
+				"href": "/pet-supplies/pet-food",
+				"description": "Find quality pet food to keep your furry friends happy and healthy."
+			},
+			{
+				"title": "Pet Toys",
+				"href": "/pet-supplies/pet-toys",
+				"description": "Shop a variety of toys to keep your pets entertained."
+			},
+			{
+				"title": "Grooming Supplies",
+				"href": "/pet-supplies/grooming-supplies",
+				"description": "Discover grooming supplies to keep your pets looking their best."
+			},
+			{
+				"title": "Pet Accessories",
+				"href": "/pet-supplies/pet-accessories",
+				"description": "Browse leashes, collars, and other accessories for your pets."
+			}
+		]
+	}
+]

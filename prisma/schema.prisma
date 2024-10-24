@@ -1,0 +1,82 @@
+// This Prisma schema defines the data models for an e-commerce application
+// using PostgreSQL as the database provider. The schema includes models for 
+// Stores, Products, Categories, and Subcategories. Each model is 
+// accompanied by its attributes, data types, and relationships to other models.
+
+generator client {
+	provider = "prisma-client-js" // This generator creates a Prisma Client for querying the database.
+}
+
+datasource db {
+	provider = "postgresql" // The database provider is PostgreSQL.
+	url      = env("DATABASE_URL") // The database connection URL is retrieved from the environment variable DATABASE_URL.
+}
+
+// Represents a store in the application.
+model Store {
+	id				String @id @default(uuid()) // Unique identifier for the store.
+	userId			String @unique // Unique user ID associated with the store.
+
+	products		Product[] @relation("ProductToStore") // One-to-many relation to Product model.
+
+	createdAt		DateTime @default(now()) // Timestamp for when the store was created.
+	updatedAt		DateTime @updatedAt // Timestamp for the last update of the store.
+
+	@@index([userId]) // Index for userId for efficient querying.
+}
+
+// Represents a category of products.
+model Category {
+	id             String        @id @default(uuid()) // Unique identifier for the category.
+	name           String        @unique // Unique name for the category.
+
+	subcategories  Subcategory[] @relation("SubcategoryToCategory") // One-to-many relation to Subcategory model.
+
+	products       Product[]     @relation("ProductToCategory") // One-to-many relation to Product model.
+
+	createdAt      DateTime      @default(now()) // Timestamp for when the category was created.
+	updatedAt      DateTime      @updatedAt // Timestamp for the last update of the category.
+}
+
+// Represents a subcategory of products within a category.
+model Subcategory {
+	id           String     @id @default(uuid()) // Unique identifier for the subcategory.
+	name         String     @unique // Unique name for the subcategory.
+	categoryName String // Name of the parent category (redundant, can be removed).
+
+	categoryId   String // Foreign key referencing the Category model.
+	category     Category   @relation("SubcategoryToCategory", fields: [categoryId], references: [id]) // Relation to Category model.
+
+	products     Product[]  @relation("ProductToSubcategory") // One-to-many relation to Product model.
+
+	createdAt    DateTime   @default(now()) // Timestamp for when the subcategory was created.
+	updatedAt    DateTime   @updatedAt // Timestamp for the last update of the subcategory.
+
+	@@index([categoryId]) // Index for categoryId for efficient querying.
+}
+
+// Represents a product in the application.
+model Product {
+	id             String       @id @default(uuid()) // Unique identifier for the product.
+	name           String // Name of the product.
+	price          Decimal      @default(1) // Price of the product (default value is 1).
+	stock          Decimal      @default(1) // Stock quantity of the product (default value is 1).
+	isFeatured     Boolean      @default(false) // Indicates if the product is featured (default is false).
+	imageUrl	   String // URL for the product image.
+
+	storeId        String // Foreign key referencing the Store model.
+	store		   Store @relation("ProductToStore", fields: [storeId], references: [id]) // Relation to Store model.
+
+	categoryId     String // Foreign key referencing the Category model.
+	category       Category     @relation("ProductToCategory", fields: [categoryId], references: [name]) // Relation to Category model.
+
+	subcategoryId  String? // Foreign key referencing the Subcategory model (optional).
+	subcategory    Subcategory? @relation("ProductToSubcategory", fields: [subcategoryId], references: [name]) // Relation to Subcategory model (optional).
+
+	createdAt      DateTime     @default(now()) // Timestamp for when the product was created.
+	updatedAt      DateTime     @updatedAt // Timestamp for the last update of the product.
+
+	@@index([categoryId]) // Index for categoryId for efficient querying.
+	@@index([subcategoryId]) // Index for subcategoryId for efficient querying.
+	@@index([storeId]) // Index for storeId for efficient querying.
+}
